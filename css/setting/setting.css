@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wraper {
+  width: 100%;
+  height: auto;
+}
+@font-face {
+  font-family:Ralewey;
+  src: url(.././../fonts-1/raleway/Raleway-bold.eot);
+  src: url(.././../fonts-1/raleway/Raleway-Regular.ttf);
+  src: url(.././../fonts-1/raleway/Raleway-Regular.woff);
+  src: url(.././../fonts-1/raleway/Raleway-Regular.woff2);
+}
+@font-face {
+  font-family:Poppins;
+  src: url(../.././fonts-1/poppins/Poppins-Regular.eot);
+  src: url(../.././fonts-1/poppins/Poppins-Regular.ttf);
+  src: url(../.././fonts-1/poppins/Poppins-Regular.woff);
+  src: url(../.././fonts-1/poppins/Poppins-Regular.woff2);
+}
+:root {
+  --bg-oranged: #da722c;
+  --bg-blue: #057ada;
+  --bg-white: #e8f7fb;
+  --bg-darkblue: #023047;
+  --bg-black: #070917;
+  --light-purple: #6f7dfb;
+}

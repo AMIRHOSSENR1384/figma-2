@@ -1,0 +1,50 @@
+.text-student {
+  height: 768px;
+  display: flex;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  top: -47px;
+  left: 963px;
+  row-gap: 25px;
+}
+.text-student h1 {
+  color: #023047;
+  font-family: Raleway;
+
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+
+  line-height: 120%; /* 72px */
+}
+.text-student .text-student-h1 {
+  width: 558px;
+}
+.text-student p {
+  color: #023047;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  width: 558px;
+}
+.text-student button {
+  position: absolute;
+  bottom: 153px;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  width: 167px;
+  height: 59px;
+  border: unset;
+  border-radius: 24px;
+  background: #da722c;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

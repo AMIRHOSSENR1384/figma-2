@@ -1,0 +1,80 @@
+.header {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: relative;
+}
+.header .logo {
+  position: absolute;
+  left: 116px;
+}
+.header .logo p {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.header .navbar nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  column-gap: 60px;
+ 
+}
+.header .navbar {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: end;
+}
+.header .navbar nav div.n-1 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.header .navbar nav div.n-2 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.header .navbar nav div.n-3 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.header .navbar nav button {
+  display: inline-flex;
+  padding: 16px 32px;
+  box-sizing: border-box;
+
+  gap: 10px;
+  border-radius: 24px;
+  background: #023047;
+  border: unset;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 24px;
+}

@@ -1,0 +1,126 @@
+.footer {
+  width: 100%;
+  height: 406px;
+  background-color: #070917;
+  position: relative;
+}
+.footer .title {
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.footer .title .tp-1 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  width: 105px;
+  font-style: normal;
+  position: absolute;
+  font-weight: 700;
+  left: 116px;
+}
+.footer .title .tp-2 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  left: 427px;
+}
+.footer .title .tp-3 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  width: 113px;
+  left: 671px;
+}
+.footer .p-all {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  top: 120px;
+  left: 140px;
+}
+.footer .p-all-2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  left: 451px;
+  top: 120px;
+}
+.footer .p-all-3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  left: 695px;
+  top: 120px;
+}
+.footer .p-all-3 .icon {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 28px;
+  position: absolute;
+  top: 35px;
+}
+.footer .maker {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  bottom: 70px;
+  left: 116px;
+}
+.footer input[type="search"] {
+  width: 521px;
+  height: 39px;
+  border-radius: 8px;
+  background: #fff;
+  border: unset;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  left: 695px;
+  top: 222px;
+  padding-left: 27px;
+  box-sizing: border-box;
+}
+.footer input[type="button"] {
+  width: 135px;
+  height: 30px;
+  border: unset;
+  position: absolute;
+  left: 1062px;
+  top: 226px;
+  border-radius: 8px;
+  background: #023047;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; 
+}
