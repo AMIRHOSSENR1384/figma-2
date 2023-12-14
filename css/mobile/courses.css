@@ -4,7 +4,7 @@
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
   position: relative;
   display: flex;
-  
+
   justify-content: center;
   top: 193px;
 }
@@ -29,8 +29,7 @@
 }
 
 .courses .course-mario {
-  width: 413px;
-
+  width: 384px;
   height: 380px;
   border-radius: 24px;
   position: absolute;
@@ -90,7 +89,7 @@
   background: #023047;
 }
 .courses .course-ps4 {
-  width: 413px;
+  width: 384px;
 
   height: 380px;
   border-radius: 24px;
@@ -149,7 +148,6 @@
   border-radius: 24px;
   background: #023047;
 }
-
 
 .courses button {
   color: #fff;
