@@ -22,11 +22,15 @@
 .header .navbar nav {
   display: none;
 }
-
-.header label[for="show"] {
-  position: absolute;
-  top: 32px;
-}
 .left-intro {
   width: 50px;
 }
+.header label[for="show"] {
+  position: absolute;
+  top: 61px;
+  left: 342px;
+}
+.header label[for="close"] {
+  display: none;
+}
+#show:checked ~ label[for="close"]{display: block;}

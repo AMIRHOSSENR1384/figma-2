@@ -9,7 +9,7 @@
   position: absolute;
   top: 70px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
 }
 .footer .title .tp-1 {
   color: #da722c;
@@ -30,6 +30,104 @@
   font-weight: 400;
   line-height: 200%;
   position: absolute;
-  top: 120px;
+  top: 164px;
+  left: 171px;
+  display: flex;
+  flex-flow: column;
+}
+.footer .title .tp-2 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  top: 254px;
+  left: 154px;
+}
+.footer .p-all-2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  top: 355px;
+  left: 171px;
+}
+.footer .title .tp-3 {
+  color: #da722c;
+
+  font-family: Poppins;
+  font-size: 18px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  width: 113px;
+  left: 154px;
+  top: 411px;
+}
+.footer .p-all-3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  left: 124px;
+  top: 531px;
+}
+.footer .p-all-3 .icon {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 28px;
+  position: absolute;
+  top: 35px;
+}
+.footer input[type="search"] {
+  width: 350px;
+  height: 39px;
+  border-radius: 8px;
+  background: #fff;
+  border: unset;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  left: 32px;
+  top: 657px;
+  padding-left: 27px;
+  box-sizing: border-box;
+}
+.footer input[type="button"] {
+  width: 135px;
+  height: 30px;
+  border: unset;
+  position: absolute;
   left: 140px;
+  top: 726px;
+  border-radius: 8px;
+  background: #023047;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+.footer .maker {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  bottom: 70px;
+  left: 78px;
 }

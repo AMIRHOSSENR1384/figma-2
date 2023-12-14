@@ -11,7 +11,13 @@
   left: 60px;
   top: 61px;
 }
-.header label[for="show"] {
+.header label[for="menu"] {
+  display: none;
+}
+.header label[for="close"] {
+  display: none;
+}
+.header input[type="radio"] {
   display: none;
 }
 .header .navbar nav .nav-2 {
