@@ -1,20 +1,21 @@
 .header {
-  height: 110px;
+  height: 80px;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   position: relative;
 }
+.header .logo {
+  position: absolute;
+  left: 60px;
+  top: 61px;
+}
 .header label[for="show"] {
   display: none;
 }
 .header .navbar nav .nav-2 {
   display: none;
-}
-.header .logo {
-  position: absolute;
-  left: 100px;
 }
 .header .logo p {
   color: #fff;
@@ -31,6 +32,8 @@
   align-items: center;
   position: absolute;
   column-gap: 60px;
+  top: 61px;
+  right: 60px;
 }
 .header .navbar {
   width: 90%;

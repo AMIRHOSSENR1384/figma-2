@@ -1,9 +1,10 @@
 .footer {
   width: 100%;
-  height: 406px;
+  height: 638px;
+  flex-shrink: 0;
   background-color: #070917;
   position: relative;
-  top: 0;
+  bottom: -638px;
 }
 .footer .title {
   position: absolute;
@@ -19,27 +20,7 @@
   font-style: normal;
   position: absolute;
   font-weight: 700;
-  left: 116px;
-}
-.footer .title .tp-2 {
-  color: #da722c;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  position: absolute;
-  left: 427px;
-}
-.footer .title .tp-3 {
-  color: #da722c;
-  font-family: Poppins;
-  font-size: 18px;
-  position: absolute;
-  font-style: normal;
-  font-weight: 700;
-  width: 113px;
-  left: 671px;
-  top: 0;
+  left: 100px;
 }
 .footer .p-all {
   color: #fff;
@@ -52,6 +33,15 @@
   top: 120px;
   left: 140px;
 }
+.footer .title .tp-2 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  left: 427px;
+}
 .footer .p-all-2 {
   color: #fff;
   font-family: Poppins;
@@ -63,6 +53,17 @@
   left: 451px;
   top: 120px;
 }
+.footer .title .tp-3 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  width: 113px;
+  left: 100px;
+  top: 226px;
+}
 .footer .p-all-3 {
   color: #fff;
   font-family: Poppins;
@@ -71,8 +72,8 @@
   font-weight: 400;
   line-height: 200%;
   position: absolute;
-  left: 695px;
-  top: 120px;
+  left: 124px;
+  top: 352px;
 }
 .footer .p-all-3 .icon {
   display: flex;
@@ -80,17 +81,6 @@
   column-gap: 28px;
   position: absolute;
   top: 35px;
-}
-.footer .maker {
-  color: #fff;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 200%;
-  position: absolute;
-  bottom: 70px;
-  left: 116px;
 }
 .footer input[type="search"] {
   width: 521px;
@@ -105,8 +95,8 @@
   font-weight: 400;
   line-height: 200%;
   position: absolute;
-  left: 695px;
-  top: 222px;
+  left: 124px;
+  top: 450px;
   padding-left: 27px;
   box-sizing: border-box;
 }
@@ -115,8 +105,8 @@
   height: 30px;
   border: unset;
   position: absolute;
-  left: 1062px;
-  top: 226px;
+  left: 493px;
+  top: 456px;
   border-radius: 8px;
   background: #023047;
   color: #fff;
@@ -125,4 +115,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: 200%;
+}
+.footer .maker {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  bottom: 57px;
+  left: 100px;
 }

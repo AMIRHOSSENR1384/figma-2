@@ -1,13 +1,13 @@
 .courses {
   width: 100%;
-  height: 768px;
+  height: 1223px;
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
   position: relative;
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  column-gap: 73px;
-  top: 0;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  top: 317px;
 }
 .courses .c-h1-1 {
   width: 100%;
@@ -18,8 +18,9 @@
 }
 .courses h1 {
   color: #fff;
+  text-align: center;
   font-family: Raleway;
-  font-size: 60px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 900;
   position: absolute;
@@ -27,26 +28,26 @@
   top: 70px;
 }
 .courses .course-mario {
-  width: 526px;
-  height: 418px;
+  width: 632px;
+  height: 373px;
   border-radius: 24px;
   position: absolute;
-  left: 126px;
+  left: 100px;
+  top: 184px;
   background: #fff;
   display: flex;
   flex-flow: column nowrap;
-  top: 172px;
   align-items: center;
 }
 .courses .course-mario img {
   height: 260px;
-  width: 462px;
+  width: 560px;
   border-radius: 24px;
   position: absolute;
-  bottom: 162px;
+  bottom: 118px;
 }
 .courses .course-mario .mario-text-h1 {
-  bottom: 216px;
+  bottom: 168px;
   left: 14px;
   position: absolute;
 }
@@ -68,7 +69,7 @@
   font-weight: 900;
   position: absolute;
   right: 43px;
-  bottom: 84px;
+  bottom: 68px;
   display: inline-block;
 }
 .courses .course-mario .mario-text-p1 svg {
@@ -83,11 +84,11 @@
   background: #023047;
 }
 .courses .course-ps4 {
-  width: 526px;
+  width: 632px;
   position: absolute;
-  top: 172px;
-  height: 418px;
-  right: 115px;
+  height: 373px;
+  right: 100px;
+  top: 637px;
   border-radius: 24px;
   background: #fff;
   display: flex;
@@ -97,13 +98,13 @@
 
 .courses .course-ps4 img {
   height: 260px;
-  width: 462px;
+  width: 560px;
   border-radius: 24px;
   position: absolute;
-  bottom: 162px;
+  bottom: 118px;
 }
 .courses .course-ps4 .ps4-text-h1 {
-  bottom: 216px;
+  bottom: 182px;
   left: -24px;
   position: absolute;
   width: 392px;
@@ -124,7 +125,7 @@
   font-weight: 900;
   position: absolute;
   right: 43px;
-  bottom: 84px;
+  bottom: 68px;
   display: inline-block;
 }
 .courses .course-ps4 .ps4-text-p1 svg {
@@ -152,5 +153,5 @@
   border: unset;
   position: absolute;
   bottom: 70px;
-  right: 115px;
+  right: 100px;
 }

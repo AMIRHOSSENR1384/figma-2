@@ -1,18 +1,19 @@
 .bottom-intro {
   width: 100%;
-  height: calc(768px - 110px);
+  height: calc(1194px - 80px);
   display: flex;
   flex-flow: row nowrap;
   position: relative;
 }
 .bottom-intro .left-intro {
-  width: 34%;
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   row-gap: 18px;
-  position: relative;top: 4px;
+  position: relative;
+  top: -432px;
 }
 
 .bottom-intro .left-intro h3 {
@@ -37,7 +38,7 @@
   position: absolute;
   left: 116px;
   bottom: 309px;
-  width: 457px;
+  width: 601px;
 }
 .bottom-intro .left-intro button {
   display: inline-flex;
@@ -65,8 +66,8 @@
   flex-flow: column nowrap;
   row-gap: 158px;
   position: absolute;
-  right: 383px;
-  top: 201px;
+  right: 429px;
+  top: 718px;
 }
 .center-intro .button-ceneter-intro {
   width: 206px;
@@ -160,5 +161,5 @@
   flex-shrink: 0;
   position: absolute;
   bottom: 0;
-  right: 79px;
+  right: 215px;
 }
