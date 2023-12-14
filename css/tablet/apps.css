@@ -37,9 +37,10 @@
 .d-app {
   width: 200%;
   height: 100px;
-  bottom: -100px;
+  bottom: 47px;
   display: flex;
   justify-content: center;
+  flex-flow: row;
   column-gap: 30px;
 }
 .app-store {

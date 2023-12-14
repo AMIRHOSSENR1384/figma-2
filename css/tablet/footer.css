@@ -21,6 +21,7 @@
   position: absolute;
   font-weight: 700;
   left: 100px;
+  top: 0;
 }
 .footer .p-all {
   color: #fff;
@@ -40,6 +41,7 @@
   font-style: normal;
   font-weight: 700;
   position: absolute;
+  top: 0;
   left: 427px;
 }
 .footer .p-all-2 {
@@ -55,6 +57,7 @@
 }
 .footer .title .tp-3 {
   color: #da722c;
+  top: 0;
   font-family: Poppins;
   font-size: 18px;
   position: absolute;

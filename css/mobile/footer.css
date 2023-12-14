@@ -1,1 +1,35 @@
-.footer{display: none;}
+.footer {
+  width: 100%;
+  height: 883px;
+  background-color: #070917;
+  position: relative;
+  bottom: -653px;
+}
+.footer .title {
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.footer .title .tp-1 {
+  color: #da722c;
+  font-family: Poppins;
+  font-size: 18px;
+  width: 105px;
+  font-style: normal;
+  position: absolute;
+  font-weight: 700;
+  left: 154px;
+  top: 60px;
+}
+.footer .p-all {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  position: absolute;
+  top: 120px;
+  left: 140px;
+}

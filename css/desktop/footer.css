@@ -19,6 +19,7 @@
   font-style: normal;
   position: absolute;
   font-weight: 700;
+  top: 0;
   left: 116px;
 }
 .footer .title .tp-2 {
@@ -28,6 +29,7 @@
   font-style: normal;
   font-weight: 700;
   position: absolute;
+  top: 0;
   left: 427px;
 }
 .footer .title .tp-3 {
