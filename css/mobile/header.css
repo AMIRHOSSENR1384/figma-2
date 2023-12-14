@@ -8,7 +8,7 @@
 }
 .header .logo {
   position: absolute;
-  left: 60px;
+  left: 31px;
   top: 61px;
 }
 .header .logo p {
@@ -21,10 +21,6 @@
 }
 .header .navbar nav {
   display: none;
-}
-.header .navbar .logo {
-  position: absolute;
-  left: 32px;
 }
 
 .header label[for="show"] {

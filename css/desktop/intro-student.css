@@ -86,7 +86,7 @@
 .intro-student .s-img-1-bottom img {
   border-radius: 120px;
   position: absolute;
-  right: 32px;
+  right: 32px; 
 }
 
 .intro-student .s-img-2 {
@@ -156,4 +156,7 @@
   border-radius: 120px;
   position: absolute;
   right: 32px;
+  width: 120px;
+  height: 120px;
+  top: 57px;
 }
