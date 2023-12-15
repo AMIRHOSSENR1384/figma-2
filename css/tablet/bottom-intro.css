@@ -5,6 +5,15 @@
   flex-flow: row nowrap;
   position: relative;
 }
+.bottom-intro label[for="navbar"] {
+  display: none;
+}
+.bottom-intro label[for="close"] {
+  display: none;
+}
+.bottom-intro input[type="radio"] {
+  display: none;
+}
 .bottom-intro .left-intro {
   width: 100%;
   display: flex;

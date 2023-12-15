@@ -19,18 +19,10 @@
   font-weight: 900;
   line-height: normal;
 }
-.header .navbar nav {
-  display: none;
-}
+
 .left-intro {
   width: 50px;
 }
-.header label[for="show"] {
-  position: absolute;
-  top: 61px;
-  left: 342px;
-}
-.header label[for="close"] {
+.header .navbar {
   display: none;
 }
-#show:checked ~ label[for="close"]{display: block;}
