@@ -1,10 +1,16 @@
-.intro-student {
-  width: 50%;
-  height: 768px;
-
-  display: flex;
+.intro-mein {
+  display: flex ;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.intro-student {
+  width: 76%;
+  height: 768px;
+  flex-flow: column nowrap;
+  display: flex;
+ 
   position: relative;
 }
 .line {
@@ -13,7 +19,7 @@
   flex-shrink: 0;
   border-radius: 24px;
   background: #023047;
-  position: absolute;
+  
   left: 187px;
   top: 288px;
 }
@@ -21,9 +27,9 @@
   height: 222px;
   width: 664px;
   background-color: #fff;
-  position: absolute;
+  
   border-radius: 24px;
-  left: 100px;
+  
   top: 326px;
   display: inline-flex;
   flex-flow: column;
@@ -31,7 +37,7 @@
   box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.2);
 }
 .intro-student .s-img-1 .s-img-1-top {
-  display: inline-flex;
+
   padding: 24px 32px;
   box-sizing: border-box;
   align-items: flex-start;
@@ -96,7 +102,7 @@
   background-color: #fff;
   position: absolute;
   border-radius: 24px;
-  left: 100px;
+  
   bottom: 144px;
   display: inline-flex;
   flex-flow: column;

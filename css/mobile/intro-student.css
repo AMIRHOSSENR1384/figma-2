@@ -1,3 +1,9 @@
+.intro-mein {
+  display: flex ;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
 .intro-student {
   width: 100%;
   height: 800px;
@@ -12,8 +18,8 @@
   flex-shrink: 0;
   border-radius: 24px;
   background: #023047;
-  position: absolute;
-  left: 83px;
+  position: relative;
+   left: 57px;
   top: 348px;
 }
 
@@ -23,7 +29,7 @@
   background-color: #fff;
   position: absolute;
   border-radius: 24px;
-  left: 32px;
+
   top: 370px;
 
   display: inline-flex;
@@ -92,9 +98,9 @@
   height: 202px;
   width: 350px;
   background-color: #fff;
-  position: absolute;
+ position: absolute ;
   border-radius: 24px;
-  left: 32px;
+   
   top: 584px;
   display: inline-flex;
   flex-flow: column;

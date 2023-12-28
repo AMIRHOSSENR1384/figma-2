@@ -8,8 +8,7 @@
 .footer .title {
   position: absolute;
   top: 70px;
-  display: flex;
-  flex-flow: row nowrap;
+ 
 }
 .footer .title .tp-1 {
   color: #da722c;

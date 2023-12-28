@@ -1,12 +1,12 @@
 .text-student {
   height: 768px;
-  display: flex;
-  position: absolute;
+
+
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   top: -233px;
-  left: 100px;
+ 
   row-gap: 25px;
 }
 .text-student h1 {
@@ -36,7 +36,7 @@
 .text-student button {
   position: absolute;
   bottom: -432px;
-  left: 502px;
+  left: 436px;
   padding: 16px 32px;
   box-sizing: border-box;
   width: 167px;

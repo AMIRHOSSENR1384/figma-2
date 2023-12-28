@@ -9,6 +9,7 @@
 .footer .title {
   position: absolute;
   top: 70px;
+  left: 45px;
   display: flex;
   flex-flow: row nowrap;
 }

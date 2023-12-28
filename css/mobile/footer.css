@@ -4,12 +4,16 @@
   background-color: #070917;
   position: relative;
   bottom: -653px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 .footer .title {
   position: absolute;
   top: 70px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column nowrap; align-items: center;
 }
 .footer .title .tp-1 {
   color: #da722c;
@@ -19,7 +23,7 @@
   font-style: normal;
   position: absolute;
   font-weight: 700;
-  left: 154px;
+
   top: 60px;
 }
 .footer .p-all {
@@ -31,9 +35,10 @@
   line-height: 200%;
   position: absolute;
   top: 164px;
-  left: 171px;
+
   display: flex;
-  flex-flow: column;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .footer .title .tp-2 {
   color: #da722c;
@@ -43,7 +48,9 @@
   font-weight: 700;
   position: absolute;
   top: 254px;
-  left: 154px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .footer .p-all-2 {
   color: #fff;
@@ -54,7 +61,9 @@
   line-height: 200%;
   position: absolute;
   top: 355px;
-  left: 171px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .footer .title .tp-3 {
   color: #da722c;
@@ -65,7 +74,7 @@
   font-style: normal;
   font-weight: 700;
   width: 113px;
-  left: 154px;
+
   top: 411px;
 }
 .footer .p-all-3 {
@@ -76,7 +85,9 @@
   font-weight: 400;
   line-height: 200%;
   position: absolute;
-  left: 124px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   top: 531px;
 }
 .footer .p-all-3 .icon {
@@ -85,6 +96,11 @@
   column-gap: 28px;
   position: absolute;
   top: 35px;
+}
+.footer .search {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .footer input[type="search"] {
   width: 350px;
@@ -99,7 +115,7 @@
   font-weight: 400;
   line-height: 200%;
   position: absolute;
-  left: 32px;
+
   top: 657px;
   padding-left: 27px;
   box-sizing: border-box;
@@ -109,7 +125,7 @@
   height: 30px;
   border: unset;
   position: absolute;
-  left: 140px;
+
   top: 726px;
   border-radius: 8px;
   background: #023047;
@@ -129,5 +145,4 @@
   line-height: 200%;
   position: absolute;
   bottom: 70px;
-  left: 78px;
 }

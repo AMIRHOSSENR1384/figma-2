@@ -1,3 +1,9 @@
+.intro-mein {
+  background-color: #fff;
+  display:unset ;
+
+}
+
 .intro-student {
   width: 50%;
   height: 768px;
@@ -86,7 +92,7 @@
 .intro-student .s-img-1-bottom img {
   border-radius: 120px;
   position: absolute;
-  right: 32px; 
+  right: 32px;
 }
 
 .intro-student .s-img-2 {
@@ -96,7 +102,8 @@
   position: absolute;
   border-radius: 24px;
   left: 148px;
-  bottom: 144px;top: 407px;
+  bottom: 144px;
+  top: 407px;
   display: inline-flex;
   flex-flow: column;
   align-items: end;
