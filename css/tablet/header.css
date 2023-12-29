@@ -11,7 +11,12 @@
   left: 60px;
   top: 61px;
 }
-
+.header .navbar nav label[for="close"] {
+  display: none;
+}
+.bottom-intro label[for="menu"] {
+  display: none;
+}
 .header .logo p {
   color: #fff;
   font-family: Raleway;
@@ -28,6 +33,8 @@
   position: absolute;
   column-gap: 60px;
   top: 61px;
+  background-color: unset;
+  height: unset;
   right: 60px;
 }
 .header .navbar {

@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.header .navbar nav .nav-2 {
+.bottom-intro label[for="menu"] {
   display: none;
 }
 .header .logo {
@@ -29,6 +29,8 @@
   align-items: center;
   position: absolute;
   column-gap: 60px;
+  background-color: unset;
+  height: unset;
 }
 .header .navbar {
   width: 90%;
@@ -68,7 +70,6 @@
   display: inline-flex;
   padding: 16px 32px;
   box-sizing: border-box;
-
   gap: 10px;
   border-radius: 24px;
   background: #023047;

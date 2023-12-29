@@ -20,9 +20,73 @@
   line-height: normal;
 }
 
+.header .navbar nav div.n-1 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.header .navbar nav div.n-2 a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+}
+.header .navbar nav div.n-3 a {
+  color: #fff;
+  font-family: Poppins;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header .navbar nav button {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 24px;
+  background: #da722c;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .left-intro {
   width: 50px;
 }
 .header .navbar nav {
-  display: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+  position: fixed;
 }
+ .header .navbar nav {
+  width: 100%;
+  background-color: #070917;;
+  height: 100vh;
+  position: fixed;
+  z-index: 80;
+  top: 0;
+ left: -100%;
+}
+#menu:checked ~  nav  {
+left: 0; d
+}
+#close:checked ~ .header  {
+ left: -100%;
+}
+#close,#menu{display: none;}
+label[for=menu]{display: none;}
